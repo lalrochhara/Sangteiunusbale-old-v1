@@ -16,7 +16,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Sangtei import BOT_USERNAME
+from Sangtei import USERNAME
 from Sangtei.helper.note_helper.note_send_message import exceNoteMessageSender
 
 
