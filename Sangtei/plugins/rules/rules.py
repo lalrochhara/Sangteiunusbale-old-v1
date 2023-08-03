@@ -18,7 +18,7 @@
 import html
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Sangtei import BOT_USERNAME, SangteiCli
+from Sangtei import USERNAME, SangteiCli
 from Sangtei.database.rules_mongo import (get_private_note, get_rules,
                                          get_rules_button)
 from Sangtei.helper import custom_filter
