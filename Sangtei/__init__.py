@@ -29,9 +29,9 @@ from Sangtei.SangteiGban import SangteiClient
 #from Sangteigban import SangteiClient
 
 OWNER_ID = config.settings.owner
-USER_ID = config.telegram.bot.id
-NAME = config.telegram.bot.name
-USER_USERNAME = config.telegram.bot.username
+USER_ID = config.telegram.bot.user.id
+NAME = config.telegram.bot.user.name
+USER_USERNAME = config.telegram.bot.user.username
 LOG_CHANNEL = config.settings.log.chat_id
 SUDO_USERS = config.settings.sudo_users
 PREFIX = config.settings.commands.prefix
