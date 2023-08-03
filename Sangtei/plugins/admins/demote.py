@@ -17,7 +17,7 @@
 
 
 from pyrogram.types import ChatPermissions
-from Sangtei import BOT_ID, SangteiCli
+from Sangtei import USER_ID, SangteiCli
 from Sangtei.helper import custom_filter
 from Sangtei.helper.anon_admin import anonadmin_checker
 from Sangtei.helper.chat_status import (CheckAllAdminsStuffs,
@@ -36,7 +36,7 @@ async def promote(client, message):
     user_id = user_info.id
     chat_id = message.chat.id 
     
-    if user_id == BOT_ID:
+    if user_id == USER_ID:
         await message.reply(
             "I'm not going to demote myself."
         )
