@@ -19,7 +19,7 @@
 import asyncio
 import time
 
-from pyrogram import filters
+from pyrogram import client, filters
 from pyrogram.types import Message
 from Sangtei import SangteiCli
 from Sangtei.database.antiflood_mongo import get_flood, get_floodlimit
@@ -33,7 +33,7 @@ class FloodControl:
     PREV_MSG_USER_ID = dict()
 
 
-@SangteiCli.on_message(filters.group & ~filters.edited, group=5)
+@SangteiCli.on_message(filters.group & ~filters.forwarded, group=5)
 async def FloodWatcher(client, message):
     if not message.from_user:
         return
