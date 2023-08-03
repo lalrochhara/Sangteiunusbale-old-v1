@@ -19,7 +19,7 @@
 import re
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from Sangtei import BOT_USERNAME
+from Sangtei import USERNAME
 from Sangtei.database.notes_mongo import isNoteExist
 
 BTN_URL_REGEX = re.compile(
