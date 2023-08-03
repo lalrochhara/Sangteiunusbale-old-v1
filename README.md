@@ -1,4 +1,5 @@
-# Sangtei v2 <img src="https://firebasestorage.googleapis.com/v0/b/baby-bawitlung-story.appspot.com/o/Image%20file%2Fimage.png?alt=media&token=308d425c-968d-4fb2-85f3-9f78df30743d" width="37" height="37"> 
+# Sangtei v2 
+<img src="https://i.ibb.co/nrD1RtK/ssteiiiii.png" width="299" height="250"> 
 > The better group management bot.
 <hr>
 
