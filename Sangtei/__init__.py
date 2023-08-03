@@ -21,7 +21,6 @@ import dns.resolver
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from pymongo import MongoClient
 from pyrogram import Client
-from pyromod import listen
 
 from config import config
 from Sangtei.SangteiGban import SangteiClient
