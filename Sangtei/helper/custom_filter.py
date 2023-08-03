@@ -39,13 +39,13 @@ def command_lister(commands: Union[str, List[str]], disable: bool = False) -> li
 
 def commandsHelper(commands: Union[str, List[str]]) -> list:
     if isinstance(commands, str):
-        username_command = f"{commands}@{BOT_USERNAME}"
+        username_command = f"{commands}@{USERNAME}"
         COMMANDS_LIST.append(commands)
         COMMANDS_LIST.append(username_command)
 
     if isinstance(commands, list):
         for command in commands:
-            username_command = f"{command}@{BOT_USERNAME}"
+            username_command = f"{command}@{USERNAME}"
             COMMANDS_LIST.append(command)
             COMMANDS_LIST.append(username_command)
     
