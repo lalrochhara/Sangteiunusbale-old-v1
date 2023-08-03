@@ -37,7 +37,7 @@ PREFIX = config.settings.commands.prefix
 BACKUP_CHAT = config.settings.backup.chat_id
 
 SangteiCli = Client(
-    session_name='SangteiSession',
+    'SangteiSession',
     api_id=config.telegram.api_id,
     api_hash=config.telegram.api_hash,
     bot_token=config.telegram.bot.bot_token
