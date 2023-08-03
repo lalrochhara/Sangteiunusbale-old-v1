@@ -19,7 +19,7 @@
 import html
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Sangtei import BOT_USERNAME, SangteiCli
+from Sangtei import USERNAME, SangteiCli
 from Sangtei.database.connection_mongo import connectDB, get_allow_connection
 from Sangtei.helper import custom_filter
 from Sangtei.helper.chat_status import isUserAdmin
