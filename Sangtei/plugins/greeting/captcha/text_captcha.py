@@ -23,7 +23,7 @@ import string
 from pyrogram import filters
 from pyrogram.types import (CallbackQuery, ChatPermissions,
                             InlineKeyboardButton, InlineKeyboardMarkup)
-from Sangtei import BOT_USERNAME, SangteiCli
+from Sangtei import USERNAME, SangteiCli
 from Sangtei.database.welcome_mongo import (AppendVerifiedUsers,
                                            CaptchaChanceUpdater,
                                            DeleteUsercaptchaData,
