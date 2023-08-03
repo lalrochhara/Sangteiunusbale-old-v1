@@ -28,7 +28,6 @@ from Sangtei.helper.get_user import get_text, get_user_id
 UNMUTE_PERMISSIONS = ChatPermissions(
     can_send_messages=True,
     can_send_media_messages=True,
-    can_send_games=True,
     can_use_inline_bots=True,
     can_add_web_page_previews=True,
     can_send_polls=True
