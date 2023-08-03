@@ -20,7 +20,7 @@ import re
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Sangtei import BOT_USERNAME, SangteiCli
+from Sangtei import USERNAME, SangteiCli
 from Sangtei.__main__ import HELPABLE, SUB_MODE
 from Sangtei.helper import custom_filter
 from Sangtei.helper.pagination_buttons import paginate_modules
