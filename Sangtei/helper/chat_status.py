@@ -19,7 +19,7 @@
 from typing import List, Union
 
 from pyrogram.types import Message
-from Sangtei import (BOT_ID, NICKY_Sangtei_BOT, SUDO_USERS, SangteiCli,
+from Sangtei import (USER_ID, NICKY_Sangtei_BOT, SUDO_USERS, SangteiCli,
                     TELEGRAM_SERVICES_IDs)
 from Sangtei.database.connection_mongo import GetConnectedChat
 
