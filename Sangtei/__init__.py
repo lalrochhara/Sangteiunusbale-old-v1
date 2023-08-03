@@ -30,7 +30,7 @@ from Sangtei.SangteiGban import SangteiClient
 
 OWNER_ID = config.settings.owner
 USER_ID = config.telegram.bot.user.id
-NAME = config.telegram.bot.user.name
+USER_NAME = config.telegram.bot.user.name
 USER_USERNAME = config.telegram.bot.user.username
 LOG_CHANNEL = config.settings.log.chat_id
 SUDO_USERS = config.settings.sudo_users
