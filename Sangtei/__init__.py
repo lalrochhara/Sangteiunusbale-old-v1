@@ -29,19 +29,19 @@ from Sangtei.SangteiGban import SangteiClient
 #from Sangteigban import SangteiClient
 
 OWNER_ID = config.settings.owner
-USER_ID = config.telegram.bot.id
-BOT_NAME = config.telegram.bot.name
-BOT_USERNAME = config.telegram.bot.username
+USER_ID = config.telegram.bot.user.id
+NAME = config.telegram.bot.name
+USERNAME = config.telegram.bot.username
 LOG_CHANNEL = config.settings.log.chat_id
 SUDO_USERS = config.settings.sudo_users
 PREFIX = config.settings.commands.prefix
 BACKUP_CHAT = config.settings.backup.chat_id
 
 SangteiCli = Client(
-    session_name='SangteiSession',
+    'SangteiSession',
     api_id=config.telegram.api_id,
     api_hash=config.telegram.api_hash,
-    bot_token=config.telegram.bot.token
+    bot_token=config.telegram.bot.bot_token
 )
 
 # MongoDatabase dns configurations
